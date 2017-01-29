@@ -7,7 +7,7 @@ On Linux, you only need to use `gcc`, which is already installed!
 Compiling:
 <pre>gcc -W -Wall -o resume.exe resume.c</pre>
 Checking all shared library dependencies with `ldd`:
-<pre>ldd plop.exe</pre>
+<pre>ldd resume.exe</pre>
 Finnally, launch my `resume.exe`!
 <pre>./resume.exe</pre>
 
