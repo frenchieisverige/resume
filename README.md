@@ -1,6 +1,6 @@
 # My Resume
 
-##Getting started
+## Getting started
 
 They are three different ways to see my resume, from the most classical to the most surprising one: PDF to C compiling or even using Docker containers. Let's get started!
 
@@ -43,6 +43,7 @@ sudo docker run e.schwartz-resume:0.1.0
 ```
 ## Results
 
+![alt tag](https://github.com/frenchieisverige/resume/tree/master/res/screenshot.png)
 
 ## Built With
 
