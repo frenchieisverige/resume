@@ -22,11 +22,17 @@ Go to the folder named`c`:
 cd ./c
 ```
 Then, compile with `gcc`:
-```gcc -W -Wall -o resume.exe resume.c```
+```
+gcc -W -Wall -o resume.exe resume.c
+```
 Checking all shared library dependencies with `ldd`:
-```ldd resume.exe```
+```
+ldd resume.exe
+```
 Finnally, launch my `resume.exe` to see my resume!
-```./resume.exe```
+```
+./resume.exe
+```
 
 ## Docker - The multi-platform solution
 Go to the folder named `docker`:
@@ -43,7 +49,7 @@ sudo docker run e.schwartz-resume:0.1.0
 ```
 ## Results
 
-![alt tag](https://github.com/frenchieisverige/resume/tree/master/res/screenshot.png)
+![alt tag](https://github.com/frenchieisverige/resume/blob/master/res/screenshot.png)
 
 ## Built With
 
