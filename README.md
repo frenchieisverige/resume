@@ -53,7 +53,7 @@ sudo docker run e.schwartz-resume:0.1.0
 
 ## Built With
 
-* [latex](https://www.latex-project.org/) - The most popular document preparation system.
+* [latex](https://www.latex-project.org/) - The most popular document preparation system
 * [modern-cv](https://www.google.de/search?client=ubuntu&channel=fs&q=gcccv-modern&ie=utf-8&oe=utf-8&gfe_rd=cr&ei=Fh43WcD5HM7PXoqruogP#channel=fs&q=modern+cv) - Popular CV template for Latex
 * [gcc](https://gcc.gnu.org/) - The GNU Compiler Collection
 * [docker](https://www.docker.com/) - The most famous software container platform
