@@ -1,40 +1,36 @@
-# My Resume
+# my-resume
+
+Three different ways to see my resume: *C*, *Docker* or *PDF* version. Choose the one that suit you the best.
 
 ## Getting started
 
-They are three different ways to see my resume, from the most classical to the most surprising one: PDF to C compiling or even using Docker containers. Let's get started!
+Depending on the way you are going to choose to see my resume, some softwares are needed:
+* *PDF*: a regular PDF viewer is only needed.
+* *C*: The `gcc` compiler is needed. 
+* *Docker*: This multi-OS solution can be run from any machine as long as Docker is installed on it.
 
-## Prerequisites
-
-Depending on the way you are going to choose to see my resume, some softwares are needed. For the PDF option, a regular PDF viewer is only needed.
-Concerning the C option, the `gcc` compiler is needed. But most of the Linux distos already got pre-installed.
-On the other hands, if you can't have access to a Linux machine, the docker image is made for you. This solution is multi-OS, and can be run from any machine as long as docker is installed on it.
-
-## PDF - The classical way.
+## Run 
+### PDF - The classical way.
 
 Please go to the folder named `pdf` and open the file *cv_emmanuel_schwartz* with your favourite PDF viewer.
 
-## C - Compile to see it!
-An original way to visit my resume
-### Builing&Compiling ###
+### C - Compile to see it!
+
 Go to the folder named`c`:
 ```
 cd ./c
 ```
 Then, compile with `gcc`:
 ```
-gcc -W -Wall -o resume.exe resume.c
+gcc  -o resume.exe resume.c
 ```
-Checking all shared library dependencies with `ldd`:
-```
-ldd resume.exe
-```
-Finnally, launch my `resume.exe` to see my resume!
+Launch my `resume.exe` to see my resume!
 ```
 ./resume.exe
 ```
 
-## Docker - The multi-platform solution
+### Docker - The multi-platform solution
+
 Go to the folder named `docker`:
 ```
 cd ./docker
@@ -45,7 +41,7 @@ sudo make
 ```
 Finally, launch the container just created:
 ```
-sudo docker run e.schwartz-resume:0.1.0
+sudo docker run e.schwartz-resume:0.2.0
 ```
 ## Results
 
