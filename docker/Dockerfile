@@ -12,7 +12,7 @@ ENV HOME /home/dev
 
 COPY resume.c /home/dev/resume.c
 
-RUN gcc -W -Wall -o resume.exe resume.c 
+RUN gcc -o resume.exe resume.c 
 
 CMD ["/home/dev/resume.exe"]
 

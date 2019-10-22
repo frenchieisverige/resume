@@ -1,5 +1,5 @@
 NAME = e.schwartz-resume
-VERSION = 0.1.0
+VERSION = 0.2.0
 
 .PHONY: all build tag_latest push push_latest run last_built_date
 
